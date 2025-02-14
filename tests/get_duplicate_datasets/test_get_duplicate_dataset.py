@@ -13,9 +13,7 @@ def mock_s3_client():
     Mocks the S3 client using pre-saved JSON data.
     """
     # Load expected object keys from the JSON file
-    with open(
-        "tests/get_duplicate_datasets/data/expected_list_file_path_from_backup.json"
-    ) as f:
+    with open("tests/get_duplicate_datasets/test_data/mock_obj_keys.json") as f:
         expected_obj_keys = json.load(f)
 
     # Create a mock S3 client
