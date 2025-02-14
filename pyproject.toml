@@ -18,7 +18,9 @@ classifiers = [
 ]
 dependencies = [
   "boto3<=1.36.19",
-  "tqdm<=4.67.1"
+  "mock<=5.1.0",
+  "tqdm<=4.67.1",
+
 
 ]
 
