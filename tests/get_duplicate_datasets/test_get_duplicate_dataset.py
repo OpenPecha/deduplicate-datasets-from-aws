@@ -44,7 +44,7 @@ def test_deduplicate_datasets(mocked_s3_client, mock_s3_client):
 
     # Load expected results from the JSON file
     with open(
-        "tests/get_duplicate_datasets/data/expected_list_file_path_from_backup.json"
+        "tests/get_duplicate_datasets/test_data/expected_list_file_path_from_backup.json"
     ) as f:
         expected_obj_keys = json.load(f)
 
