@@ -129,6 +129,6 @@ dmypy.json
 .pyre/
 
 #ignore the Data
-.data
+data
 #ignore DS_STORE
 .DS_STORE

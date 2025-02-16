@@ -16,6 +16,13 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+  "boto3<=1.36.19",
+  "mock<=5.1.0",
+  "tqdm<=4.67.1",
+
+
+]
 
 [project.optional-dependencies]
 dev = [
